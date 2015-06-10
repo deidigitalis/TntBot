@@ -1,2 +1,2 @@
 # TntBot
-TeeNTi Bot Crawler
+TNT Bot Crawler
