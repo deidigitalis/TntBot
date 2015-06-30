@@ -1,0 +1,31 @@
+﻿<Window x:Class="TntBot.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:TntBot.ViewModel"
+        mc:Ignorable="d"
+        Title="TNT Bot"
+        Width="1024" Height="768"
+        AllowsTransparency="False"
+        Icon="/TntBot;component/Resources/icon.png"
+        Loaded="MainWindow_OnLoaded"
+        d:DataContext="{d:DesignInstance Type=viewModel:MainWindowViewModel}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" x:Name="MainGrid" Background="Black" />
+        <StatusBar Grid.Row="1">
+            <StatusBarItem>Pablo Caballero</StatusBarItem>
+            <StatusBarItem>
+                <TextBlock>
+                    <Hyperlink NavigateUri="http://deidigitalis.github.io/TntBot/" RequestNavigate="Hyperlink_RequestNavigate">
+                        http://deidigitalis.github.io/TntBot/
+                    </Hyperlink>
+                </TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
