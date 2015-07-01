@@ -148,12 +148,25 @@
     <value>Download Photos</value>
   </data>
   <data name="InputBaseNameMessage" xml:space="preserve">
-    <value>Please enter the base-name of the social network.</value>
+    <value>Please enter the base name of the social network.</value>
   </data>
   <data name="Download_OutputFolder" xml:space="preserve">
     <value>Output folder</value>
   </data>
   <data name="BaseNameValidationRuleMessage" xml:space="preserve">
     <value>Please enter a valid base name.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="License" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\license;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LicenseContent" xml:space="preserve">
+    <value>GNU GENERAL PUBLIC LICENSE</value>
+  </data>
+  <data name="LicenseMainInstruction" xml:space="preserve">
+    <value>TNT Bot License</value>
+  </data>
+  <data name="LicenseWindowTitle" xml:space="preserve">
+    <value>License</value>
   </data>
 </root>

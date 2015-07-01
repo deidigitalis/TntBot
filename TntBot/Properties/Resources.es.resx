@@ -151,6 +151,18 @@
     <value>Carpeta de salida</value>
   </data>
   <data name="InputBaseNameMessage" xml:space="preserve">
-    <value>Por favor introduzca el nombre-base de la red social.</value>
+    <value>Por favor introduzca el nombre base de la red social.</value>
+  </data>
+  <data name="LicenseMainInstruction" xml:space="preserve">
+    <value>Licencia TNT Bot</value>
+  </data>
+  <data name="LicenseWindowTitle" xml:space="preserve">
+    <value>Licencia</value>
+  </data>
+  <data name="LicenseContent" xml:space="preserve">
+    <value>LICENCIA PÚBLICA GENERAL GNU</value>
+  </data>
+  <data name="BaseNameValidationRuleMessage" xml:space="preserve">
+    <value>Por favor introduzca un nombre base válido.</value>
   </data>
 </root>

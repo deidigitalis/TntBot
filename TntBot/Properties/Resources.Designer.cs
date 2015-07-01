@@ -124,7 +124,7 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please enter the base-name of the social network..
+        ///   Looks up a localized string similar to Please enter the base name of the social network..
         /// </summary>
         public static string InputBaseNameMessage {
             get {
@@ -156,6 +156,53 @@ namespace TntBot.Properties {
         public static string InstructionsLine2 {
             get {
                 return ResourceManager.GetString("InstructionsLine2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                     GNU GENERAL PUBLIC LICENSE
+        ///                       Version 2, June 1991
+        ///
+        /// Copyright (C) 1989, 1991 Free Software Foundation, Inc., &lt;http://fsf.org/&gt;
+        /// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///                            Preamble
+        ///
+        ///  The licenses for most software are designed to take away your
+        ///freedom to share and change it.  By contrast, the [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string License {
+            get {
+                return ResourceManager.GetString("License", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to GNU GENERAL PUBLIC LICENSE.
+        /// </summary>
+        public static string LicenseContent {
+            get {
+                return ResourceManager.GetString("LicenseContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TNT Bot License.
+        /// </summary>
+        public static string LicenseMainInstruction {
+            get {
+                return ResourceManager.GetString("LicenseMainInstruction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to License.
+        /// </summary>
+        public static string LicenseWindowTitle {
+            get {
+                return ResourceManager.GetString("LicenseWindowTitle", resourceCulture);
             }
         }
         

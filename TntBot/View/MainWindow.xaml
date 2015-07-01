@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModel="clr-namespace:TntBot.ViewModel"
         mc:Ignorable="d"
-        Title="TNT Bot"
+        Title="TNT Bot - http://deidigitalis.github.io/TntBot/"
         Width="1024" Height="768"
         AllowsTransparency="False"
         Icon="/TntBot;component/Resources/icon.png"
@@ -14,17 +14,21 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition />
-            <RowDefinition Height="25" />
+            <RowDefinition Height="28" />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" x:Name="MainGrid" Background="Black" />
         <StatusBar Grid.Row="1">
-            <StatusBarItem>Pablo Caballero</StatusBarItem>
             <StatusBarItem>
-                <TextBlock>
-                    <Hyperlink NavigateUri="http://deidigitalis.github.io/TntBot/" RequestNavigate="Hyperlink_RequestNavigate">
-                        http://deidigitalis.github.io/TntBot/
-                    </Hyperlink>
-                </TextBlock>
+                <Button Content="Pablo Caballero" Command="{Binding ShowInformationAboutAuthorCommand}" />
+            </StatusBarItem>
+            <StatusBarItem>
+                <Button Content="License" Command="{Binding ShowLicenseCommand}" />
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <StackPanel Orientation="Horizontal">
+                <Button Content="Notify Issue" Command="{Binding NotifyIssueCommand}" Margin="5,0" />
+                <Button Content="http://deidigitalis.github.io/TntBot/" Command="{Binding ShowInformationAboutSourceCommand}" />
+                </StackPanel>
             </StatusBarItem>
         </StatusBar>
     </Grid>

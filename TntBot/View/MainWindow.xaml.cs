@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Input;
-using System.Windows.Navigation;
 using TntBot.ViewModel;
 
 namespace TntBot.View
@@ -25,20 +24,6 @@ namespace TntBot.View
         public void ClearDocumentControl()
         {
             MainGrid.Children.Clear();
-        }
-
-        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
-        {
-            try
-            {
-                Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
-            }
-            catch
-            {
-                // ignored
-            }
-
-            e.Handled = true;
         }
 
         private void MainWindow_OnLoaded(object sender, RoutedEventArgs e)
