@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModel="clr-namespace:TntBot.ViewModel"
+        xmlns:ppty="clr-namespace:TntBot.Properties"
         mc:Ignorable="d"
-        Title="TNT Bot - http://deidigitalis.github.io/TntBot/"
+        Title="{x:Static ppty:Resources.MainWindowTitle}"
         Width="1024" Height="768"
         AllowsTransparency="False"
         Icon="/TntBot;component/Resources/icon.png"
@@ -19,15 +20,27 @@
         <Grid Grid.Row="0" x:Name="MainGrid" Background="Black" />
         <StatusBar Grid.Row="1">
             <StatusBarItem>
-                <Button Content="Pablo Caballero" Command="{Binding ShowInformationAboutAuthorCommand}" />
+                <Button
+                    Content="{x:Static ppty:Resources.AuthorButtonContent}"
+                    ToolTip="{x:Static ppty:Resources.AuthorButtonToolTip}"
+                    Command="{Binding ShowInformationAboutAuthorCommand}" />
             </StatusBarItem>
             <StatusBarItem>
-                <Button Content="License" Command="{Binding ShowLicenseCommand}" />
+                <Button
+                    Content="{x:Static ppty:Resources.LicenseButtonContent}"
+                    ToolTip="{x:Static ppty:Resources.LicenseButtonToolTip}"
+                    Command="{Binding ShowLicenseCommand}" />
             </StatusBarItem>
             <StatusBarItem HorizontalAlignment="Right">
                 <StackPanel Orientation="Horizontal">
-                <Button Content="Notify Issue" Command="{Binding NotifyIssueCommand}" Margin="5,0" />
-                <Button Content="http://deidigitalis.github.io/TntBot/" Command="{Binding ShowInformationAboutSourceCommand}" />
+                    <Button Margin="5,0"
+                        Content="{x:Static ppty:Resources.NotifyIssueButtonContent}"
+                        ToolTip="{x:Static ppty:Resources.NotifyIssueButtonToolTip}"
+                        Command="{Binding NotifyIssueCommand}" />
+                <Button
+                    Content="{x:Static ppty:Resources.ShowInformationAboutSourceButtonContent}"
+                    ToolTip="{x:Static ppty:Resources.ShowInformationAboutSourceButtonToolTip}"
+                    Command="{Binding ShowInformationAboutSourceCommand}" />
                 </StackPanel>
             </StatusBarItem>
         </StatusBar>

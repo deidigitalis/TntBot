@@ -169,4 +169,40 @@
   <data name="LicenseWindowTitle" xml:space="preserve">
     <value>License</value>
   </data>
+  <data name="AcceptButton" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BaseNameWatermark" xml:space="preserve">
+    <value>MySocialNetwork</value>
+  </data>
+  <data name="NotifyIssueButtonContent" xml:space="preserve">
+    <value>Notify Issue</value>
+  </data>
+  <data name="LicenseButtonContent" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="AuthorButtonContent" xml:space="preserve">
+    <value>Pablo Caballero</value>
+  </data>
+  <data name="ShowInformationAboutSourceButtonContent" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AuthorButtonToolTip" xml:space="preserve">
+    <value>Go to author profile</value>
+  </data>
+  <data name="LicenseButtonToolTip" xml:space="preserve">
+    <value>Show the license</value>
+  </data>
+  <data name="NotifyIssueButtonToolTip" xml:space="preserve">
+    <value>Go to the TNT Bot web in github for notifing an issue</value>
+  </data>
+  <data name="ShowInformationAboutSourceButtonToolTip" xml:space="preserve">
+    <value>http://deidigitalis.github.io/TntBot/</value>
+  </data>
+  <data name="MainWindowTitle" xml:space="preserve">
+    <value>TNT Bot - http://deidigitalis.github.io/TntBot/</value>
+  </data>
 </root>

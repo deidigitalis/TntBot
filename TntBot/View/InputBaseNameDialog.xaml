@@ -7,8 +7,9 @@
         xmlns:toolkit="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:system="clr-namespace:System;assembly=mscorlib"
         xmlns:view="clr-namespace:TntBot.View"
+        xmlns:ppty="clr-namespace:TntBot.Properties"
         mc:Ignorable="d"
-        Title="TNT Bot"
+        Title="{x:Static ppty:Resources.MainWindowTitle}"
         Icon="/TntBot;component/Resources/icon.png"
         Height="300" Width="300"
         AllowsTransparency="True"
@@ -51,7 +52,7 @@
                        Style="{StaticResource TextBlockStyle}" />
             <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" Orientation="Horizontal">
                 <TextBlock Text="http://m." Style="{StaticResource TextBlockStyle}" />
-                <toolkit:WatermarkTextBox Watermark="MySocialNetwork" Width="125">
+                <toolkit:WatermarkTextBox Watermark="{x:Static ppty:Resources.BaseNameWatermark}" Width="125">
                     <toolkit:WatermarkTextBox.Text>
                         <Binding Path="Input" Mode="TwoWay">
                             <Binding.ValidationRules>
@@ -62,10 +63,10 @@
                 </toolkit:WatermarkTextBox>
                 <TextBlock Text=".com" Style="{StaticResource TextBlockStyle}" />
             </StackPanel>
-            <Button Grid.Row="4" Grid.Column="0" Content="Accept" IsDefault="True"
+            <Button Grid.Row="4" Grid.Column="0" Content="{x:Static ppty:Resources.AcceptButton}" IsDefault="True"
                     Command="{Binding CloseCommand}"
                     CommandParameter="{StaticResource True}" />
-            <Button Grid.Row="4" Grid.Column="1" Content="Cancel" IsCancel="True"
+            <Button Grid.Row="4" Grid.Column="1" Content="{x:Static ppty:Resources.CancelButton}" IsCancel="True"
                     Command="{Binding CloseCommand}"
                     CommandParameter="{StaticResource False}" />
         </Grid>

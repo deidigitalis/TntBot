@@ -165,4 +165,40 @@
   <data name="BaseNameValidationRuleMessage" xml:space="preserve">
     <value>Por favor introduzca un nombre base válido.</value>
   </data>
+  <data name="AcceptButton" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="BaseNameWatermark" xml:space="preserve">
+    <value>MiRedSocial</value>
+  </data>
+  <data name="NotifyIssueButtonContent" xml:space="preserve">
+    <value>Notificar Problema</value>
+  </data>
+  <data name="LicenseButtonContent" xml:space="preserve">
+    <value>Licencia</value>
+  </data>
+  <data name="AuthorButtonContent" xml:space="preserve">
+    <value>Pablo Caballero</value>
+  </data>
+  <data name="ShowInformationAboutSourceButtonContent" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AuthorButtonToolTip" xml:space="preserve">
+    <value>Ir al perfil del autor</value>
+  </data>
+  <data name="LicenseButtonToolTip" xml:space="preserve">
+    <value>Muestra la licencia</value>
+  </data>
+  <data name="MainWindowTitle" xml:space="preserve">
+    <value>TNT Bot - http://deidigitalis.github.io/TntBot/</value>
+  </data>
+  <data name="NotifyIssueButtonToolTip" xml:space="preserve">
+    <value>Ir a la web de Tnt Bot en github para notificar un problema</value>
+  </data>
+  <data name="ShowInformationAboutSourceButtonToolTip" xml:space="preserve">
+    <value>http://deidigitalis.github.io/TntBot/</value>
+  </data>
 </root>

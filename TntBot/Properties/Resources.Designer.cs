@@ -61,11 +61,56 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Accept.
+        /// </summary>
+        public static string AcceptButton {
+            get {
+                return ResourceManager.GetString("AcceptButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pablo Caballero.
+        /// </summary>
+        public static string AuthorButtonContent {
+            get {
+                return ResourceManager.GetString("AuthorButtonContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go to author profile.
+        /// </summary>
+        public static string AuthorButtonToolTip {
+            get {
+                return ResourceManager.GetString("AuthorButtonToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please enter a valid base name..
         /// </summary>
         public static string BaseNameValidationRuleMessage {
             get {
                 return ResourceManager.GetString("BaseNameValidationRuleMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MySocialNetwork.
+        /// </summary>
+        public static string BaseNameWatermark {
+            get {
+                return ResourceManager.GetString("BaseNameWatermark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        public static string CancelButton {
+            get {
+                return ResourceManager.GetString("CancelButton", resourceCulture);
             }
         }
         
@@ -180,6 +225,24 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to License.
+        /// </summary>
+        public static string LicenseButtonContent {
+            get {
+                return ResourceManager.GetString("LicenseButtonContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show the license.
+        /// </summary>
+        public static string LicenseButtonToolTip {
+            get {
+                return ResourceManager.GetString("LicenseButtonToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to GNU GENERAL PUBLIC LICENSE.
         /// </summary>
         public static string LicenseContent {
@@ -207,6 +270,15 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to TNT Bot - http://deidigitalis.github.io/TntBot/.
+        /// </summary>
+        public static string MainWindowTitle {
+            get {
+                return ResourceManager.GetString("MainWindowTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Loading album &quot;{0}&quot;, page {1}....
         /// </summary>
         public static string NextPageDetectedMessage {
@@ -216,11 +288,47 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Notify Issue.
+        /// </summary>
+        public static string NotifyIssueButtonContent {
+            get {
+                return ResourceManager.GetString("NotifyIssueButtonContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go to the TNT Bot web in github for notifing an issue.
+        /// </summary>
+        public static string NotifyIssueButtonToolTip {
+            get {
+                return ResourceManager.GetString("NotifyIssueButtonToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Saving photo &quot;{0}&quot; in &quot;{1}&quot;....
         /// </summary>
         public static string SavingPhotoMessage {
             get {
                 return ResourceManager.GetString("SavingPhotoMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Web.
+        /// </summary>
+        public static string ShowInformationAboutSourceButtonContent {
+            get {
+                return ResourceManager.GetString("ShowInformationAboutSourceButtonContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to http://deidigitalis.github.io/TntBot/.
+        /// </summary>
+        public static string ShowInformationAboutSourceButtonToolTip {
+            get {
+                return ResourceManager.GetString("ShowInformationAboutSourceButtonToolTip", resourceCulture);
             }
         }
     }
