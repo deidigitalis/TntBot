@@ -162,9 +162,6 @@
   <data name="LicenseContent" xml:space="preserve">
     <value>LICENCIA PÚBLICA GENERAL GNU</value>
   </data>
-  <data name="BaseNameValidationRuleMessage" xml:space="preserve">
-    <value>Por favor introduzca un nombre base válido.</value>
-  </data>
   <data name="AcceptButton" xml:space="preserve">
     <value>Aceptar</value>
   </data>
@@ -200,5 +197,14 @@
   </data>
   <data name="ShowInformationAboutSourceButtonToolTip" xml:space="preserve">
     <value>http://deidigitalis.github.io/TntBot/</value>
+  </data>
+  <data name="BaseNameValidationRuleHashCode" xml:space="preserve">
+    <value>La red social {0} no está soportada.</value>
+  </data>
+  <data name="BaseNameValidationRuleEmptyString" xml:space="preserve">
+    <value>El nombre base no puede estar vacío.</value>
+  </data>
+  <data name="BaseNameToolTipRight" xml:space="preserve">
+    <value>Ésta es una red social válida ¡Adelante!</value>
   </data>
 </root>

@@ -153,8 +153,8 @@
   <data name="Download_OutputFolder" xml:space="preserve">
     <value>Output folder</value>
   </data>
-  <data name="BaseNameValidationRuleMessage" xml:space="preserve">
-    <value>Please enter a valid base name.</value>
+  <data name="BaseNameValidationRuleEmptyString" xml:space="preserve">
+    <value>The base name can not be empty.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="License" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -204,5 +204,11 @@
   </data>
   <data name="MainWindowTitle" xml:space="preserve">
     <value>TNT Bot - http://deidigitalis.github.io/TntBot/</value>
+  </data>
+  <data name="BaseNameValidationRuleHashCode" xml:space="preserve">
+    <value>The social network {0} is not supported.</value>
+  </data>
+  <data name="BaseNameToolTipRight" xml:space="preserve">
+    <value>This is a valid social network. Go ahead!</value>
   </data>
 </root>

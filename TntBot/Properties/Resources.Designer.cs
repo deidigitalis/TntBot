@@ -88,11 +88,29 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please enter a valid base name..
+        ///   Looks up a localized string similar to This is a valid social network. Go ahead!.
         /// </summary>
-        public static string BaseNameValidationRuleMessage {
+        public static string BaseNameToolTipRight {
             get {
-                return ResourceManager.GetString("BaseNameValidationRuleMessage", resourceCulture);
+                return ResourceManager.GetString("BaseNameToolTipRight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The base name can not be empty..
+        /// </summary>
+        public static string BaseNameValidationRuleEmptyString {
+            get {
+                return ResourceManager.GetString("BaseNameValidationRuleEmptyString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The social network {0} is not supported..
+        /// </summary>
+        public static string BaseNameValidationRuleHashCode {
+            get {
+                return ResourceManager.GetString("BaseNameValidationRuleHashCode", resourceCulture);
             }
         }
         
