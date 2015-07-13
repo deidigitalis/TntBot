@@ -6,7 +6,7 @@ TNT Bot es una aplicación de escritorio de código libre para la descarga de fo
 # Instalación
 
 * Descargar el archivo zip desde la página de [releases](https://github.com/deidigitalis/TntBot/releases) e instalarlo.
-* Visítanos en http://deidigitalis.github.io/TntBot/
+* Visítanos en http://deidigitalis.wix.com/tntbot
 * Visítanos en Facebook.
 
 # Empezando
