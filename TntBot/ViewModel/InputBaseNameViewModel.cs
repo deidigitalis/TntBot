@@ -13,6 +13,15 @@ namespace TntBot.ViewModel
         private string input;
         private string message;
 
+        internal InputBaseNameViewModel(InputBaseNameDialog view)
+        {
+            this.view = view;
+
+            Message = Resources.InputBaseNameMessage;
+
+            CloseCommand = new DelegateCommand<bool?>(Close);
+        }
+
         public ICommand CloseCommand { get; private set; }
 
         public string Input
@@ -27,15 +36,6 @@ namespace TntBot.ViewModel
             set { SetProperty(ref message, value, "Message"); }
         }
 
-        internal InputBaseNameViewModel(InputBaseNameDialog view)
-        {
-            this.view = view;
-
-            Message = Resources.InputBaseNameMessage;
-
-            CloseCommand = new DelegateCommand<bool?>(Close);
-        }
-
         private void Close(bool? accepted)
         {
             if (accepted.HasValue)
@@ -47,8 +47,8 @@ namespace TntBot.ViewModel
                 }
                 else
                 {
-                    BaseNameValidationRule rule = new BaseNameValidationRule();
-                    if (rule.Validate(Message, CultureInfo.CurrentCulture).IsValid)
+                    var rule = new BaseNameValidationRule();
+                    if (rule.Validate(Input, CultureInfo.CurrentCulture).IsValid)
                     {
                         view.DialogResult = true;
                         view.Close();
