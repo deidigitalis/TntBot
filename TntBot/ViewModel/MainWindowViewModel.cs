@@ -75,7 +75,7 @@ namespace TntBot.ViewModel
         {
             try
             {
-                Process.Start(@"http://deidigitalis.github.io/TntBot/");
+                Process.Start(@"http://deidigitalis.wix.com/tntbot");
             }
             catch
             {

@@ -190,13 +190,13 @@
     <value>Muestra la licencia</value>
   </data>
   <data name="MainWindowTitle" xml:space="preserve">
-    <value>TNT Bot - http://deidigitalis.github.io/TntBot/</value>
+    <value>TNT Bot - http://deidigitalis.wix.com/tntbot</value>
   </data>
   <data name="NotifyIssueButtonToolTip" xml:space="preserve">
     <value>Ir a la web de Tnt Bot en github para notificar un problema</value>
   </data>
   <data name="ShowInformationAboutSourceButtonToolTip" xml:space="preserve">
-    <value>http://deidigitalis.github.io/TntBot/</value>
+    <value>http://deidigitalis.wix.com/tntbot</value>
   </data>
   <data name="BaseNameValidationRuleHashCode" xml:space="preserve">
     <value>La red social {0} no está soportada.</value>

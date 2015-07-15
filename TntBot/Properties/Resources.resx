@@ -200,10 +200,10 @@
     <value>Go to the TNT Bot web in github for notifing an issue</value>
   </data>
   <data name="ShowInformationAboutSourceButtonToolTip" xml:space="preserve">
-    <value>http://deidigitalis.github.io/TntBot/</value>
+    <value>http://deidigitalis.wix.com/tntbot</value>
   </data>
   <data name="MainWindowTitle" xml:space="preserve">
-    <value>TNT Bot - http://deidigitalis.github.io/TntBot/</value>
+    <value>TNT Bot - http://deidigitalis.wix.com/tntbot</value>
   </data>
   <data name="BaseNameValidationRuleHashCode" xml:space="preserve">
     <value>The social network {0} is not supported.</value>

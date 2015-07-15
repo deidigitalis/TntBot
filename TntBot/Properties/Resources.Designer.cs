@@ -234,7 +234,7 @@ namespace TntBot.Properties {
         ///                            Preamble
         ///
         ///  The licenses for most software are designed to take away your
-        ///freedom to share and change it.  By contrast, the [rest of string was truncated]&quot;;.
+        ///freedom to share and change it.  By contrast, the GNU Genera [rest of string was truncated]&quot;;.
         /// </summary>
         public static string License {
             get {
@@ -288,7 +288,7 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TNT Bot - http://deidigitalis.github.io/TntBot/.
+        ///   Looks up a localized string similar to TNT Bot - http://deidigitalis.wix.com/tntbot.
         /// </summary>
         public static string MainWindowTitle {
             get {
@@ -342,7 +342,7 @@ namespace TntBot.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://deidigitalis.github.io/TntBot/.
+        ///   Looks up a localized string similar to http://deidigitalis.wix.com/tntbot.
         /// </summary>
         public static string ShowInformationAboutSourceButtonToolTip {
             get {
