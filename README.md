@@ -1,7 +1,7 @@
 # TntBot
-**TNT Bot Crawler**
+**TNT Bot Rastreador Web**
 
-TNT Bot es una aplicación de escritorio de código libre para la descarga de fotos desde ciertas redes sociales. Descarga todos los álbumes y sus fotos en la resolución en la que se tienen almacenadas.
+Potente rastreador web para Windows que descarga tus fotos de tus redes sociales de manera sencilla y gratuíta.
 
 # Instalación
 
@@ -16,3 +16,24 @@ TNT Bot es una aplicación de escritorio de código libre para la descarga de fo
 3. Entra en la _red social_ y pulse "Descargar Fotos".
 4. Seleccionar la carpeta de salida.
 5. Esperar a que termine.
+
+
+# TntBot
+**TNT Bot Web Crawler**
+
+Powerful web crawler for Windows that downloads your photos from your social networks, easily and free.
+
+
+# Installation
+
+* Download the zip file from the web page [releases](https://github.com/deidigitalis/TntBot/releases) and install it.
+* Visit us at http://deidigitalis.wix.com/tntbot
+* Visit us at Facebook.
+
+# Getting Started
+
+1. Install the last version.
+2. Start TNT Bot and enter the name of the social network, it must fit in the url.
+3. Enter into the _social network_ and press "Download Photos".
+4. Select the output folder.
+5. Wait until the end.
