@@ -37,7 +37,7 @@
                         Content="{x:Static ppty:Resources.NotifyIssueButtonContent}"
                         ToolTip="{x:Static ppty:Resources.NotifyIssueButtonToolTip}"
                         Command="{Binding NotifyIssueCommand}" />
-                <Button
+                    <Button
                     Content="{x:Static ppty:Resources.ShowInformationAboutSourceButtonContent}"
                     ToolTip="{x:Static ppty:Resources.ShowInformationAboutSourceButtonToolTip}"
                     Command="{Binding ShowInformationAboutSourceCommand}" />

@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
@@ -49,3 +50,4 @@ using System.Windows;
 [assembly: AssemblyVersion("0.2.0.0")]
 [assembly: AssemblyFileVersion("0.2.0.0")]
 [assembly: GuidAttribute("D422A2E1-75BD-4C8C-AEC7-160EBD55CCDC")]
+[assembly: InternalsVisibleTo("TntBotTest")]

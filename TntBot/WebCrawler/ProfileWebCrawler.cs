@@ -21,7 +21,7 @@ namespace TntBot.WebCrawler
         {
             string url = string.Format("https://m.{0}.com/?m=Profile&func=my_profile", baseName);
 
-            HtmlDocument document = LoadDocument(url);
+            HtmlDocument document = Loader.LoadDocument(url);
 
             List<Link> links = new List<Link>();
             HtmlNodeCollection htmlNodeCollection = document.DocumentNode.SelectNodes("//a");

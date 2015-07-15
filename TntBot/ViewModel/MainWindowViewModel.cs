@@ -29,7 +29,7 @@ namespace TntBot.ViewModel
 
         public ICommand ShowLicenseCommand { get; private set; }
 
-        #endregion
+        #endregion Commands
 
         public MainWindowViewModel(MainWindow view, string baseName)
         {

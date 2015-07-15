@@ -5,9 +5,9 @@ using System.Net;
 using System.Windows.Input;
 using System.Windows.Navigation;
 using TntBot.Helper;
+using TntBot.Loader;
 using TntBot.Properties;
 using TntBot.View;
-using TntBot.WebCrawler;
 
 namespace TntBot.ViewModel
 {
@@ -69,7 +69,7 @@ namespace TntBot.ViewModel
 
         private void view_Loaded(object sender, System.Windows.RoutedEventArgs e)
         {
-            string additionalHeader = string.Format("User-Agent: {0}", BaseWebCrawler.Ip6);
+            string additionalHeader = string.Format(@"User-Agent: {0}", UrlDocumentLoader.AppleUserAgent);
             view.Browser.Navigate(loginAddress, null, null, null);
         }
     }

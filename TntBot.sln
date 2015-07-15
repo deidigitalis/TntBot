@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TntBot", "TntBot\TntBot.csproj", "{A683E305-1FD0-43A0-93E6-7C16468109E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TntBotTest", "TntBotTest\TntBotTest.csproj", "{22BF0E74-9950-4A5A-A635-3C57393B8F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{A683E305-1FD0-43A0-93E6-7C16468109E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A683E305-1FD0-43A0-93E6-7C16468109E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A683E305-1FD0-43A0-93E6-7C16468109E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BF0E74-9950-4A5A-A635-3C57393B8F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BF0E74-9950-4A5A-A635-3C57393B8F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BF0E74-9950-4A5A-A635-3C57393B8F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BF0E74-9950-4A5A-A635-3C57393B8F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

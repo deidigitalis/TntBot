@@ -35,7 +35,7 @@ namespace TntBot.WebCrawler
         internal void Download()
         {
             string url = photo.GetUrl();
-            HtmlDocument document = LoadDocument(url);
+            HtmlDocument document = Loader.LoadDocument(url);
 
             DateTime creationTime;
 
@@ -63,9 +63,9 @@ namespace TntBot.WebCrawler
                         HtmlNode image = linkNode.ChildNodes[0];
                         photo.Source = image.Attributes["src"].Value;
 
-                        using (var client = new CookieAwareWebClient(Cookies))
+                        using (var client = new CookieAwareWebClient(Loader.Cookies))
                         {
-                            client.Headers["User-Agent"] = Ip6;
+                            client.Headers["User-Agent"] = Loader.UserAgent;
 
                             string name = photo.Link.Name;
 
@@ -140,39 +140,51 @@ namespace TntBot.WebCrawler
                         case "Ene":
                             month = 1;
                             break;
+
                         case "Feb":
                             month = 2;
                             break;
+
                         case "Mar":
                             month = 3;
                             break;
+
                         case "Abr":
                             month = 4;
                             break;
+
                         case "May":
                             month = 5;
                             break;
+
                         case "Jun":
                             month = 6;
                             break;
+
                         case "Jul":
                             month = 7;
                             break;
+
                         case "Ago":
                             month = 8;
                             break;
+
                         case "Sep":
                             month = 9;
                             break;
+
                         case "Oct":
                             month = 10;
                             break;
+
                         case "Nov":
                             month = 11;
                             break;
+
                         case "Dic":
                             month = 12;
                             break;
+
                         default:
                             month = 1;
                             break;

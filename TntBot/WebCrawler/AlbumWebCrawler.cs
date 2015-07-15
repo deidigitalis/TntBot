@@ -32,7 +32,7 @@ namespace TntBot.WebCrawler
             do
             {
                 string url = album.GetUrl(page);
-                HtmlDocument document = LoadDocument(url);
+                HtmlDocument document = Loader.LoadDocument(url);
 
                 List<Photo> photos = document.DocumentNode.SelectNodes("//a")
                     .Where(x => x.Attributes["href"].Value.Contains("m=Photos"))
