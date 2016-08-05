@@ -1,6 +1,8 @@
 # TntBot
 **TNT Bot Rastreador Web**
 
+> :no_entry: **_¡TntBot ya no se mantiene!_**
+
 Potente rastreador web para Windows que descarga tus fotos de tus redes sociales de manera sencilla y gratuíta.
 
 # Instalación
@@ -20,6 +22,8 @@ Potente rastreador web para Windows que descarga tus fotos de tus redes sociales
 
 # TntBot
 **TNT Bot Web Crawler**
+
+> :no_entry: **_TntBot is not longer maintained!_**
 
 Powerful web crawler for Windows that downloads your photos from your social networks, easily and free.
 
